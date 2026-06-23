@@ -6,6 +6,8 @@
 
 *By Richard Potter. The source discussed here lives in this repository under `src/WpfCube/`.*
 
+![A lit, three-quarter view of the cube](docs/images/cube.png)
+
 **Contents**
 
 - [Introduction](#introduction)

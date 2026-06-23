@@ -26,6 +26,10 @@ public partial class MainWindow : Window
         // The geometry is built in code so each face is stated once, with a correct outward normal.
         CubeVisual.Content = CubeMesh.Build();
 
+        // Start at a three-quarter view so three faces are visible straight away.
+        Rotation.Quaternion = new Quaternion(new Vector3D(1, 0, 0), -22) *
+                              new Quaternion(new Vector3D(0, 1, 0), 35);
+
         _spinTimer = new DispatcherTimer(DispatcherPriority.Render) { Interval = TimeSpan.FromMilliseconds(16) };
         _spinTimer.Tick += (_, _) => Spin(new Vector3D(0, 1, 0), AutoSpinDegrees);
         _spinTimer.Start();
