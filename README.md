@@ -192,3 +192,7 @@ out points, triangles, winding, normals, materials, lights and a camera, and in 
 real-time, depth-sorted, animatable 3D scene inside an ordinary window. Get the **winding** right so
 your faces face outward, give them honest **normals** so they light correctly, and reach for a
 **quaternion** the moment a human starts rotating things — and the cube behaves.
+
+## Licence and disclaimer
+
+This is a personal project by Richard Potter, shared in the hope it's useful. It's free to use under the MIT licence (see [LICENSE](LICENSE)). It's provided as is: I make no promises that it works or suits your purpose, and I take no responsibility for anything that happens from using it. It isn't a product of, or supported by, any company I work for.
